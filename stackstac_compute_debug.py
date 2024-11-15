@@ -23,8 +23,8 @@ COLLECTION = "sentinel-2-l2a"
 # RasterioIOError('AWS_SECRET_ACCESS_KEY and AWS_NO_SIGN_REQUEST configuration options not defined, and /home/kyle/.aws/credentials not filled')
 
 # use a totally different STAC API and COLLECTION 
-STAC_API = "https://landsatlook.usgs.gov/stac-server"
-COLLECTION = "landsat-c2l2-sr"
+# STAC_API = "https://landsatlook.usgs.gov/stac-server"
+# COLLECTION = "landsat-c2l2-sr"
 # we get a differnt error
 # RuntimeError: Error opening 'https://landsatlook.usgs.gov/data/collection02/level-2/standard/oli-tirs/2018/203/034/LC08_L2SP_203034_20180830_20200831_02_T1/LC08_L2SP_203034_20180830_20200831_02_T1_SR_B7.TIF': 
 # RasterioIOError("'/vsicurl/https://landsatlook.usgs.gov/data/collection02/level-2/standard/oli-tirs/2018/203/034/LC08_L2SP_203034_20180830_20200831_02_T1/LC08_L2SP_203034_20180830_20200831_02_T1_SR_B7.TIF' 
